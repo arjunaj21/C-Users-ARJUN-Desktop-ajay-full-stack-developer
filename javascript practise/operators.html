@@ -1,0 +1,208 @@
+<h1>arthemetic operators</h1>
+<br/>
+<script>
+    var x=10,y=20,z=50
+    w=x+y+z
+    document.write(w);
+</script>
+<br><br>
+
+<script>
+    var x=200,y=100,z=32
+    w=x-y-z
+    document.write(w);
+</script>
+<br><br>
+<script>
+   var x=2145,y=123
+   w=x*y
+    document.write(w);
+</script>
+
+<br><br>
+<script>
+    var x=12,y=3
+    w=x/y
+    document.write(w);
+</script>
+<br><br>
+<script>
+    var a=21,b=3
+    w=a%b
+    document.write(w);
+</script>
+<br><br>
+
+<h2>shorthand operators</h2>
+
+<script>
+    var x=35
+    x+=76
+    document.write(x)
+</script>
+<br><br>
+<script>
+    var x=35
+    x-=21
+    document.write(x)
+</script>
+<br><br>
+<script>
+    var x=35
+    x*=76
+    document.write(x)
+</script>
+<br><br>
+<script>
+    var x=200
+    x/=12
+    document.write(x)
+</script>
+<br>
+<br>
+<h2>example 1</h2>
+<script>
+    var x=10
+    x+=20
+    x+=30
+        document.write(x)
+</script>
+
+<h2>example 2</h2>
+<script>
+
+    var total=0, a = 100, b= 900, c = 500
+
+    total += a
+
+
+    total += b //100+900=1000
+
+
+    total *= c  //1000*500=500000
+
+
+
+    document.write(total)
+
+    total-=5000
+    document.write("<br/>"+total)
+
+</script>
+
+<br/>
+<h2>example 3</h2>
+<script>
+var m="hey this is aj"
+    var msg = " here we use break tag with double quotes and + for new line and text is called string which is reprsented in string type"
+    msg +=  "<br/>"+m 
+    msg += "<br/>"+"Enter Email"
+    msg +=  "<br/>"+"Enter password"
+
+    document.write(msg)
+
+
+</script>
+<br><br>
+<h2>in list type</h2>
+<script>
+
+    var result = "", name = "ifbiu", email = "wkhfbwfiw@gmail.com", phone = "y42982z892"
+
+    result += "<ul>"
+    result += "<li>" + name + "</li>"
+    result += "<li>" + email + "</li>"
+    result += "<li>" + phone + "</li>"
+    result += "</ul>"
+
+    document.write(result)
+
+
+</script>
+<br><br>
+<h2>increment/decrement</h2>
+<script>
+
+var x = 10
+++x//pre icnrement
+x++//11   post increment
+//12 
+x += 1
+x += true
+--x
+document.write(x
+)
+</script>
+
+<br><br><script>
+
+    var x = 5
+    x += x+6  // x=x+x-> x=5+5+6
+
+    document.write(x)
+
+</script>
+<br><br>
+<h2>relationl</h2>
+<script>
+    var pwd = "121212", cpwd = "121212"//if both statements are equal
+    if (pwd == cpwd) {
+        document.write("both are equal")
+    }
+</script>
+<br><br>
+<script>
+    var pwd = "121212", cpwd = "12132"
+    if (pwd != cpwd) {
+        document.write("both are not equal")
+    }
+</script>
+<br><br>
+<script>
+    var name= "azariya", password="azariya"
+    if(name == password){
+        document.write("both matched")
+    }
+   else{(name!=password)
+        document.write("incorrect")}
+    
+</script>
+   <br>
+   <h3>alert box</h3>
+   <script>
+
+    window.alert("HELLO JAVSCRIPT")
+
+    var res = window.confirm("Do you want to take Registration?")
+    
+    document.write(res)
+</script>
+<br><br>
+<script>
+        window.alert("HELLO arjun")
+
+    var res = window.confirm("Do you want to take Registration?")
+
+    document.write(res)
+    if (res) {
+        document.write("You selected Ok Button")
+    }
+    else {
+        document.write("You Selected Cancel Button")
+    }
+</script>
+<br>
+<br>
+<script>
+
+    var res = window.confirm(`If you have already obtained Pre-Printed Kit  from the branch for activating INB facility , please don't proceed  with this link. You can input userid and password given in PPK on normal login screen. Note: This link is applicable for Retail customers only.`)
+    if (res) {
+        //Auto redirection if condition become true
+        window.location.href = "https://retail.onlinesbi.com/retail/newuserreg.htm"
+    }
+    else {
+        document.write("You Selected Cancel Button")
+    }
+
+</script>
+<br><br>

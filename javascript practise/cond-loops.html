@@ -1,0 +1,104 @@
+<script>
+    var a=1000 ,b=100
+    if(a==b){
+        document.write("the values are true")
+    }
+     else if(a<b){
+         document.write("the statement is true")
+
+     }
+    
+     else{
+        
+         document.write("statement is false")
+     }
+</script>
+<br/>
+<hr>
+
+<script>
+var fruit="mango"
+switch(fruit){
+    case"potato":document.write("it is veggies");break;
+    case"coconut oil":document.write("it is  oil");break;
+    case"mango":document.write("it is mango");break;
+    case"veggies":document.write("it is carrot");break;
+    default: document.write("all are false");
+  
+}
+</script>
+<hr>
+<hr>
+<script>
+    /* print x values result is Multiple Times from 1 to 10 */
+
+    var x = 1
+
+    while (x <= 10)  //1<10....9<10-> true,  10<=10-false
+    {
+        document.write(`x: =${x} <br />`)
+        x++
+    }
+
+</script>
+<hr>
+<select>
+    <option>Year</option>
+    <script>
+        var x = 2021
+        while (x >= 1905) {
+        document.write(`<option>${x}</option>`)
+         x--
+        }
+    </script>
+</select>
+<br><hr>
+<script>
+
+    var fruits = ["apple", "banana", "mango", "blueberry"]
+    //0       1       2           3
+
+    var result = ""
+    result += "<ul>"
+    result += `<li>${fruits[0]}</li>`
+    result += `<li>${fruits[1]}</li>`
+    result += `<li>${fruits[2]}</li>`
+    result += `<li>${fruits[3]}</li>`
+    result += "</ul>"
+
+    document.write(result)
+
+    document.write(`Size of the array is: ${fruits.length} <br />`)
+
+</script>
+
+<br><hr>
+
+<script>
+
+    var emp = [101, "kumar", "kumar@gmail", "hyd", "FULLSTACK"]  //emp.length -> 5
+                //0       1       2           3           4      {index}
+
+    //arrays with loops
+    var index = 0
+    while (index < emp.length) {
+        document.write(`${index}  - ${emp[index]}<br />`)
+        index++
+    }
+
+</script>
+<hr>
+<ul>
+    <script>
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var result = ""
+
+        var index = 0
+        while (index < months.length) {
+            result += `<li>${months[index]}</li>`
+            index++
+        }
+        document.write(result)
+    </script>
+</ul>
+<br><hr>

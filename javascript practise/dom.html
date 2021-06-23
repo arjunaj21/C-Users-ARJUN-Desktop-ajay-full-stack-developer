@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+
+<div id="main"> </div>
+
+<p class="demo"></p>
+
+<script>
+
+
+document.getElementById("main").innerHTML = 
+'this is  dom by id '
+
+
+</script>
+
+</body>
+</html>
+
+<hr><hr><br>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+
+<div id="mainn">this this style property in js by dom </div>
+
+<p class="demo"></p>
+
+<script>
+
+
+document.getElementById("mainn").setAttribute("style","color:red;background-color:black;text-align:center;linehieght:30px")
+
+
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        /*
+        h1 {
+            border: red 1px solid;
+        }*/
+    </style>
+
+    <script>
+        function myfun() {
+            var h1DOM = document.getElementsByTagName('h1')[0];
+            h1DOM.style.border = "black 3px solid"
+            h1DOM.style.backgroundColor = "pink"
+            h1DOM.style.color = "red"
+
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <h1>this is the property in which changing of h1 properties through the function menthod</h1>
+    <p>
+        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+        of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder
+        before final copy is available.
+        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+        of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder
+        before final copy is available.
+        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+        of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder
+        before final copy is available.
+    </p>
+
+    
+
+    <button onclick="myfun()">CLICK</button>
+</body>
+</html>
+
+<hr><hr>
+<br>
+<script>
+    var tno = 5, res = "";{
+        for (var i = 1; i <= 20; i++) //[Function body]
+        {
+            res += `${tno} X ${i}=${tno * i} <br />`
+        }
+        document.write(res)
+    }
+
+</script>
